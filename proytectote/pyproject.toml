@@ -1,0 +1,16 @@
+[project]
+name = "proytectote"
+version = "0.1.0"
+description = "Aplicación de gestión de tareas con Flask y MongoDB Atlas"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "Flask>=2.0",
+    "pymongo>=4.0",
+    "python-dotenv>=1.0",
+    "uvicorn>=0.23",
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
